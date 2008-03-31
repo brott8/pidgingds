@@ -174,7 +174,12 @@ Public Class clsPidgin
                         hashTracker = Nothing
 
                         If File.Exists(Path.Combine(dirEntry, kTrackerName)) = True Then
-                            hashTracker = HashDeserialize(dirEntry)
+                            Try
+                                hashTracker = HashDeserialize(dirEntry)
+                            Catch
+                                'If cannot deserialize (such as 0 byte dat file), just start from scratch
+                                hashTracker = New Hashtable
+                            End Try
                         Else
                             hashTracker = New Hashtable
                         End If
