@@ -116,14 +116,6 @@ Module Module1
         End Try
 
         'Dim mdata As New clsPidgin.PidginMessageData
-        'mdata.fromFriendlyName = "Schwarz2"
-        'mdata.toFriendlyName = "MichaelWillms"
-        'mdata.mdate = Now.ToUniversalTime
-        ''mdata.message = "Schwarz82: Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and Testing 123 and "
-        'mdata.message = "<font color=""#A82F2F""><font size=""2"">(10:01:51 PM)</font> <b>MichaelWillms:</b></font> &lt;FONT COLOR=&quot;#0000FF&quot; SIZE= size=&quot;1&gt;IM Administrator: ***All instant messages to and from Jefferies are archived, monitored, and/or disclosed to persons other than the addressee. No indication of interest transmitted via IM is considered an order until/unless confirmed by Jefferies***&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;"
-        ''mdata.message = "<font color=""#A82F2F""><font size=""2"">(12:33:48 AM)</font> <b>badangelsr0ck:</b></font> <span style='background: #F4DE1F; '><span style='color: #000000; '><html><body ichatballooncolor=""#F4DE1F"" ichattextcolor=""#000000""><span style='font-family: Helvetica; color: #000000; '>didn't go, got short on money</span></body></html></span></span><br/>"
-        'mdata.sessionId = 1
-        'mdata.title = "Test"
 
         'pidgin.SendMessageData(mdata)
 
